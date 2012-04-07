@@ -1,7 +1,7 @@
 Summary:	LightDM GTK+ Greeter
 Name:		lightdm-gtk-greeter
-Version:	1.1.4
-Release:	3
+Version:	1.1.5
+Release:	1
 Group:		System/X11
 License:	GPLv3
 URL:		https://launchpad.net/lightdm-gtk-greeter
@@ -24,7 +24,6 @@ A LightDM greeter that uses the GTK+ toolkit.
 %make
 
 %install
-rm -rf %{buildroot}
 %makeinstall_std
 
 %find_lang %{name} %{name}.lang
