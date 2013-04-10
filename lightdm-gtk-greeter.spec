@@ -1,9 +1,9 @@
-%define	series	1.4
+%define	series 1.6
 
 Summary:	LightDM GTK+ Greeter
 Name:		lightdm-gtk-greeter
-Version:	1.3.1
-Release:	2
+Version:	1.5.1
+Release:	1
 Group:		System/X11
 License:	GPLv3
 URL:		https://launchpad.net/lightdm-gtk-greeter
