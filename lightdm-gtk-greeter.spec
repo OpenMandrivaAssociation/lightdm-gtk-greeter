@@ -3,7 +3,7 @@
 Summary:	LightDM GTK+ Greeter
 Name:		lightdm-gtk-greeter
 Version:	1.6.0
-Release:	2
+Release:	3
 Group:		System/X11
 License:	GPLv3
 URL:		https://launchpad.net/lightdm-gtk-greeter
