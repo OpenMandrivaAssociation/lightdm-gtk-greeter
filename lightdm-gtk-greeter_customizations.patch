@@ -1,0 +1,15 @@
+diff -up ./data/lightdm-gtk-greeter.conf.0000 ./data/lightdm-gtk-greeter.conf
+--- ./data/lightdm-gtk-greeter.conf.0000	2013-06-04 14:25:12.597888150 +0000
++++ ./data/lightdm-gtk-greeter.conf	2013-06-04 14:26:43.026191506 +0000
+@@ -14,9 +14,9 @@
+ # keyboard = command to launch on-screen keyboard
+ #
+ [greeter]
+-#background=
++background=/usr/share/mdk/backgrounds/default.png
+ #theme-name=
+-#icon-theme-name=
++icon-theme-name=gnome
+ #font-name=
+ #xft-antialias=
+ #xft-dpi=
