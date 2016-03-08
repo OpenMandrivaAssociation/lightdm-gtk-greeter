@@ -1,0 +1,30 @@
+--- ./src/greeterbackground.c	2015-06-26 06:00:10 +0000
++++ ./src/greeterbackground.c	2015-11-18 04:58:40 +0000
+@@ -467,7 +467,7 @@
+ gchar**
+ greeter_background_get_configured_monitors(GreeterBackground* background)
+ {
+-    g_return_if_fail(GREETER_IS_BACKGROUND(background));
++    g_return_val_if_fail(GREETER_IS_BACKGROUND(background), NULL);
+     GreeterBackgroundPrivate* priv = background->priv;
+ 
+     gint n = g_hash_table_size(priv->configs);
+@@ -1032,7 +1032,7 @@
+ const GdkRectangle*
+ greeter_background_get_active_monitor_geometry(GreeterBackground* background)
+ {
+-    g_return_if_fail(GREETER_IS_BACKGROUND(background));
++    g_return_val_if_fail(GREETER_IS_BACKGROUND(background), NULL);
+     GreeterBackgroundPrivate* priv = background->priv;
+ 
+     return priv->active_monitor ? &priv->active_monitor->geometry : NULL;
+@@ -1246,7 +1246,7 @@
+             break;
+         case BACKGROUND_TYPE_SKIP:
+         case BACKGROUND_TYPE_INVALID:
+-            g_return_val_if_reached(NULL);
++            g_return_if_reached();
+     }
+ 
+     background_unref(&monitor->background);
+
