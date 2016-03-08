@@ -93,6 +93,7 @@ fi
 %files common -f %{name}.lang
 %doc NEWS
 %config(noreplace) %{_sysconfdir}/lightdm/lightdm-gtk-greeter.conf
+%{_iconsdir}/hicolor/scalable/places/*.svg
 
 %files -n lightdm-gtk3-greeter
 %{_sbindir}/lightdm-gtk3-greeter
