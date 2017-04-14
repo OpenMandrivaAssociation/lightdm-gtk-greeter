@@ -1,4 +1,2 @@
-removed_sources:
-  lightdm-gtk-greeter-1.8.5.tar.gz: 96ede652591a650e159ef5ae4c9b577e38b91ee4
 sources:
-  lightdm-gtk-greeter-2.0.1.tar.gz: 36193e8d5803331419e00d7a81c9239a84219859
+  lightdm-gtk-greeter-2.0.2.tar.gz: 9d04c73dd583cf738767a71f6c05642142e3602c
