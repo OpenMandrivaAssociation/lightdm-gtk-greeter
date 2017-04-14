@@ -9,7 +9,6 @@ License:	GPLv3
 Group:		Graphical desktop/Other
 Url:		http://www.freedesktop.org/wiki/Software/LightDM
 Source0:	https://launchpad.net/%{name}/%{url_ver}/%{version}/+download/%{name}-%{version}.tar.gz
-Patch1:		lightdm-gtk-greeter-2.0.1-Fix-compiler-warnings-about-return-values.patch
 BuildRequires:	intltool >= 0.35.0
 BuildRequires:	pkgconfig(gmodule-export-2.0)
 BuildRequires:	pkgconfig(gobject-introspection-1.0) >= 0.9.5
