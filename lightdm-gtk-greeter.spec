@@ -9,7 +9,8 @@ License:	GPLv3
 Group:		Graphical desktop/Other
 Url:		http://www.freedesktop.org/wiki/Software/LightDM
 Source0:	https://launchpad.net/%{name}/%{url_ver}/%{version}/+download/%{name}-%{version}.tar.gz
-BuildRequires:	exo
+Patch1:		0001-Removed-exo-from-deps.patch
+Patch2:		lightdm-gtk-greeter-2.0.2-omv.patch
 BuildRequires:	intltool >= 0.35.0
 BuildRequires:	pkgconfig(gmodule-export-2.0)
 BuildRequires:	pkgconfig(gobject-introspection-1.0) >= 0.9.5
@@ -54,6 +55,7 @@ A LightDM greeter that uses the GTK3 toolkit.
 %apply_patches
 
 %build
+autoreconf -fiv
 %configure
 %make
 

@@ -1,0 +1,11 @@
+--- lightdm-gtk-greeter-2.0.2/data/lightdm-gtk-greeter.conf.orig	2017-05-03 11:26:37.130966545 +0100
++++ lightdm-gtk-greeter-2.0.2/data/lightdm-gtk-greeter.conf	2017-05-03 11:26:59.156985233 +0100
+@@ -45,7 +45,7 @@
+ #  transition-duration = overrides default value
+ #
+ [greeter]
+-#background=
++background=/usr/share/mdk/backgrounds/OpenMandriva-splash.png
+ #user-background=
+ #theme-name=
+ #icon-theme-name=
