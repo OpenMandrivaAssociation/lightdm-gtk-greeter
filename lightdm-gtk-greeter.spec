@@ -18,6 +18,7 @@ BuildRequires:	pkgconfig(gtk+-3.0)
 BuildRequires:	pkgconfig(liblightdm-gobject-1)
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	gnome-common
+BuildRequires:	pkgconfig(exo-1)
 
 %description
 A LightDM greeter that uses the GTK+ toolkit.
