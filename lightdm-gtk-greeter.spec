@@ -4,7 +4,7 @@
 Summary:	The Light Display Manager (GTK+ greeter)
 Name:		lightdm-gtk-greeter
 Version:	2.0.6
-Release:	1
+Release:	2
 License:	GPLv3
 Group:		Graphical desktop/Other
 Url:		http://www.freedesktop.org/wiki/Software/LightDM
