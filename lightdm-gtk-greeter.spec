@@ -54,7 +54,7 @@ A LightDM greeter that uses the GTK3 toolkit.
 
 %prep
 %setup -q
-%apply_patches
+%autopatch -p1
 
 %build
 autoreconf -fiv
