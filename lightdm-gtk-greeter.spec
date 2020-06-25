@@ -3,12 +3,14 @@
 
 Summary:	The Light Display Manager (GTK+ greeter)
 Name:		lightdm-gtk-greeter
-Version:	2.0.7
+Version:	2.0.8
 Release:	1
 License:	GPLv3
 Group:		Graphical desktop/Other
 Url:		http://www.freedesktop.org/wiki/Software/LightDM
-Source0:	https://launchpad.net/%{name}/%{url_ver}/%{version}/+download/%{name}-%{version}.tar.gz
+Source0:	https://github.com/Xubuntu/lightdm-gtk-greeter/releases/download/%{name}-%{version}/%{name}-%{version}.tar.gz
+# Old sources
+#Source0:	https://launchpad.net/%{name}/%{url_ver}/%{version}/+download/%{name}-%{version}.tar.gz
 Patch1:		0001-Removed-exo-from-deps.patch
 Patch2:		lightdm-gtk-greeter-2.0.2-omv.patch
 BuildRequires:	intltool >= 0.35.0
