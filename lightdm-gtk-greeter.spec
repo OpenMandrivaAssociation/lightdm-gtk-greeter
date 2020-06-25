@@ -11,7 +11,6 @@ Url:		http://www.freedesktop.org/wiki/Software/LightDM
 Source0:	https://github.com/Xubuntu/lightdm-gtk-greeter/releases/download/%{name}-%{version}/%{name}-%{version}.tar.gz
 # Old sources
 #Source0:	https://launchpad.net/%{name}/%{url_ver}/%{version}/+download/%{name}-%{version}.tar.gz
-Patch1:		0001-Removed-exo-from-deps.patch
 Patch2:		lightdm-gtk-greeter-2.0.2-omv.patch
 BuildRequires:	intltool >= 0.35.0
 BuildRequires:	pkgconfig(gmodule-export-2.0)
