@@ -20,6 +20,11 @@ BuildRequires:	pkgconfig(liblightdm-gobject-1)
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	gnome-common
 BuildRequires:	pkgconfig(exo-1)
+# Optional
+BuildRequires:	pkgconfig(ayatana-appindicator3-0.1)
+BuildRequires:	pkgconfig(ayatana-indicator3-0.4)
+BuildRequires:	pkgconfig(libayatana-ido3-0.4)
+BuildRequires:	pkgconfig(libxklavier)
 
 %description
 A LightDM greeter that uses the GTK+ toolkit.
