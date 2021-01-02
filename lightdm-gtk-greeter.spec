@@ -4,7 +4,7 @@
 Summary:	The Light Display Manager (GTK+ greeter)
 Name:		lightdm-gtk-greeter
 Version:	2.0.8
-Release:	1
+Release:	2
 License:	GPLv3
 Group:		Graphical desktop/Other
 Url:		http://www.freedesktop.org/wiki/Software/LightDM
@@ -37,8 +37,6 @@ BuildArch:	noarch
 Requires:	desktop-common-data
 # For icons in top right corner
 Requires:	gnome-icon-theme
-# For icons in HighContrast mode
-Requires:	gnome-themes-standard
 Conflicts:	%{name} < 1.6.0-6
 
 %description common
