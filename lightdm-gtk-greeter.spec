@@ -19,7 +19,6 @@ BuildRequires:	pkgconfig(gtk+-3.0)
 BuildRequires:	pkgconfig(liblightdm-gobject-1)
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	gnome-common
-BuildRequires:	pkgconfig(exo-1)
 # Optional
 BuildRequires:	pkgconfig(ayatana-appindicator3-0.1)
 BuildRequires:	pkgconfig(ayatana-indicator3-0.4)
