@@ -12,6 +12,11 @@ Source0:	https://github.com/Xubuntu/lightdm-gtk-greeter/releases/download/%{name
 # Old sources
 #Source0:	https://launchpad.net/%{name}/%{url_ver}/%{version}/+download/%{name}-%{version}.tar.gz
 Patch2:		lightdm-gtk-greeter-2.0.2-omv.patch
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	intltool >= 0.35.0
 BuildRequires:	pkgconfig(gmodule-export-2.0)
 BuildRequires:	pkgconfig(gobject-introspection-1.0) >= 0.9.5
